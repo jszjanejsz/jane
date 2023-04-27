@@ -1,0 +1,39 @@
+html { 
+    font-size:9pt;
+}
+body { 
+   background-color:rgb(0, 0, 0);
+   width: 800px;
+   font-size: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    color:rgb(125, 3, 225);
+}
+h2{
+    font-size: 1.5rem;
+    color:rgb(125, 3, 225);
+}
+p {
+   color:rgb(125, 3, 225);
+   width: 700px;
+   background-color:rgb(206, 255, 0);
+   font: size 9pt;
+}
+
+a {
+    color:rgb(206, 255, 0);
+    font-weight: bold;
+    
+
+}
+a:hover{
+    color:rgb(0, 0, 0);
+}
+#first{
+    font-weight:bold ;
+}
+p:hover{
+    color:rgb(0, 0, 0);
+}
