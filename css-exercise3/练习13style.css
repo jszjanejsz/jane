@@ -1,0 +1,27 @@
+p {
+  animation-duration: 5s;
+  animation-name: slidein;
+  font-size: 24pt;
+  font-family: Arial;
+  font-weight: bolder;
+  color: rgb(255, 44, 223);
+}
+   
+ @keyframes slidein {
+ from {
+ margin-left: 100%;
+ width: 300%;
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+/* 75% { */
+/* font-size: 300%; */
+/* margin-left: 25%; */
+/* width: 150%; */
+/* } */
+}
+body{
+  background-color: rgb(0, 0, 0);
+}

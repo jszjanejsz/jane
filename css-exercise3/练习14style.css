@@ -1,0 +1,50 @@
+p {
+  margin: 0;
+  padding: 50px;
+  max-width: 100px;
+  display: inline-block;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 100px;
+  position: relative;
+  text-shadow: 1px 1px 2px  rgb(255, 31, 233), 0 0 0.5em  rgb(255, 31, 233), 0 0 0em  rgb(255, 31, 233);
+}
+
+.t20-r30 {
+  top: 30px;
+  right: 30px;
+}
+
+.t40-l10 {
+  top: 40px;
+  left: 40px;
+}
+
+.b15-l30 {
+  bottom: 30px;
+  left: 30px;
+}
+
+.b25-r20 {
+  bottom: 25px;
+  right: 25px;
+}
+
+.lightpink {
+  color: rgb(255, 31, 233);
+}
+.gold {
+  color: rgb(255, 31, 233);
+}
+
+.skyblue {
+  color: rgb(255, 31, 233);
+}
+
+.forestgreen {
+  color: rgb(255, 31, 233);
+}
+
+body{
+  background-color: black;
+}

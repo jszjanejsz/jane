@@ -1,0 +1,40 @@
+html { 
+    background-color: black;
+}
+   .container {
+    display: grid;
+  }
+  .item {
+    background: white;
+    border: 1px solid black;
+
+    width: 1450px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+
+    font-size: 100px;
+    font-style: bold;
+    line-height: 1;
+    
+  }
+  .container:hover{
+    color:rgb(255, 33, 225);
+   
+  }
+  #square:hover{
+    background: rgb(85, 0, 255);
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-delay: 0s;
+  }
+@keyframes square{
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+  

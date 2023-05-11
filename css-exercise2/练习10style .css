@@ -1,0 +1,27 @@
+html { 
+  background-color: rgb(0, 0, 0);
+}
+.container {
+	flex-flow: row wrap;
+}
+
+
+.container {
+	display: flex;
+}
+.item {
+  background: white;
+  border: 5px solid rgb(255, 17, 231);
+
+  width: 800px;
+  height: 200px;
+  padding: 200px;
+  margin: 100px;
+  
+  font-size: 50px;
+  font-style: italic;
+  line-height: 18;
+  color:rgb(255, 17, 231);
+  
+ 
+}

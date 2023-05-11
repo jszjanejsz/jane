@@ -1,0 +1,132 @@
+body{
+   padding: 20px;
+  }
+  div{
+   margin-bottom: 20px;
+  }
+
+  #yuan-1{
+    width: 150px;
+    height: 30px;
+    position:absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: #31a527;
+    transform: translate(850px, 150px)
+    
+    
+    
+  }
+
+#sanjiao{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 300px 75px 0 75px;
+    border-color: #3ac52d transparent transparent transparent;
+    transform: translate(850px, 160px);
+      
+  }
+ 
+  #tixin{
+    width: 100px;
+    transform: translate(848px,-55px); 
+    position:absolute;
+    border-bottom: 55px solid  #3ac52d;
+    border-top: 200px solid transparent; 
+    border-left: 28px solid transparent; 
+    border-right: 28px solid transparent;
+  }
+
+   #yuan-2 {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    border-radius: 50%;
+    background: #3ac52d;
+    transform: translate(875px, 35px) scale(1.6); 
+ }
+  
+  #orange-1 {
+    width: 135px;
+    height: 130px;
+    position:absolute;
+    border-radius: 50%;
+    background: rgb(254, 109, 37);
+    transform: translate(800px, 100px);
+  }
+
+  #orange-2 {
+    width: 140px;
+    height: 120px;
+    position:absolute;
+    border-radius: 50%;
+    background: rgb(254, 109, 37);
+    transform: translate(620px, 90px);
+    
+  }
+  #orange-3 {
+    width: 135px;
+    height: 115px;
+    position:absolute;
+    border-radius: 50%;
+    background: rgb(254, 142, 37);
+    transform: translate(650px, 5px);
+    
+  }
+  
+  #orange-4 {
+    width: 140px;
+    height: 135px;
+    position:absolute;
+    border-radius: 50%;
+    background: rgb(254, 142, 37);
+    transform: translate(450px, 130px);
+    
+  }
+  #gunzi-1{
+    width: 9px;
+    height: 300px;
+    position:absolute;
+    background: rgb(39, 39, 39);
+    transform: translate(890px, -350px) skew(10deg, 15deg);
+    z-index: -1;
+    
+  }
+
+#gunzi-2{
+  width: 9px;
+  height: 300px;
+  position:absolute;
+  background: rgb(39, 39, 39);
+  transform: translate(898px, -355px) skew(-2deg);
+  z-index: -1;
+}
+
+#gunzi-3{
+  width: 9px;
+  height: 300px;
+  position:absolute;
+  background: rgb(39, 39, 39);
+  transform: translate(960px, -350px) skew(-5deg);
+  z-index: -1;
+  
+}
+
+#gunzi-4{
+  width: 9px;
+  height: 300px;
+  position:absolute;
+  background: rgb(39, 39, 39);
+  transform: translate(950px, -360px);
+  z-index: -1;
+}
+
+#gunzi-5{
+  width: 9px;
+  height: 300px;
+  position:absolute;
+  background: rgb(39, 39, 39);
+  transform: translate(910px, -360px) skew(5deg);
+  z-index: -1;
+}

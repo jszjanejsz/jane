@@ -2,7 +2,7 @@ html {
     font-size:9pt;
 }
 body { 
-   background-color:rgb(0, 0, 0);
+   background-color:rgb(255, 255, 255);
    width: 800px;
    font-size: 1.5rem;
 }
@@ -28,3 +28,62 @@ a {
 p:hover{
     color:rgb(0, 0, 0);
 }
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+ 
+  .box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+body {
+    margin: 0;
+  }
+
+  .container {
+    display:grid;
+     grid-template-columns: 20% 70% 10%; 
+     grid-template-rows: 15% 85%;
+
+     padding: 0;
+     margin: 0;
+     width: 600px;
+     height: 450px;
+     margin: 50px auto;
+     border: 1px solid black;
+     background: beige;
+ 
+    
+}
+ .item {
+    background: white;
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1;
+   
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px auto 80px;
+		grid-template-areas:
+	    "header header header header"
+	    "main main main sidebar"
+	    "footer footer footer footer";
+}
+
+.header { grid-area: header; }
+.main { grid-area: main; }
+.sidebar { grid-area: sidebar; }
+.footer { grid-area: footer; }
